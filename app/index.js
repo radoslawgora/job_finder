@@ -88,9 +88,6 @@ const Home = () => {
         />
 
         <ScrollView showsVerticalScrollIndicator={false}>
-          <View style={{ flex: 1, padding: SIZES.medium }}>
-            {/* Your other content */}
-          </View>
           <Welcome
             searchTerm={searchTerm}
             setSearchTerm={setSearchTerm}
